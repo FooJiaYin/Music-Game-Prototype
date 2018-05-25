@@ -457,6 +457,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   directionTags: []
+  leftPosition: 6
+  rightPosition: 0
+  positionY: 40
 --- !u!1 &723122150 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1253708461103524, guid: ac17ad1e67bac854d819845d89f5193a,
@@ -532,6 +535,51 @@ Prefab:
       propertyPath: tokenTemplate.Array.data[3]
       value: 
       objectReference: {fileID: 1791751247}
+    - target: {fileID: 114541526151627800, guid: 058c73ae0f9d195459a1cf69483cd2be,
+        type: 2}
+      propertyPath: positionList.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114541526151627800, guid: 058c73ae0f9d195459a1cf69483cd2be,
+        type: 2}
+      propertyPath: positionList.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114541526151627800, guid: 058c73ae0f9d195459a1cf69483cd2be,
+        type: 2}
+      propertyPath: positionList.Array.data[3]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114541526151627800, guid: 058c73ae0f9d195459a1cf69483cd2be,
+        type: 2}
+      propertyPath: positionList.Array.data[4]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114541526151627800, guid: 058c73ae0f9d195459a1cf69483cd2be,
+        type: 2}
+      propertyPath: positionList.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114541526151627800, guid: 058c73ae0f9d195459a1cf69483cd2be,
+        type: 2}
+      propertyPath: positionList.Array.data[6]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114541526151627800, guid: 058c73ae0f9d195459a1cf69483cd2be,
+        type: 2}
+      propertyPath: positionList.Array.data[7]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114541526151627800, guid: 058c73ae0f9d195459a1cf69483cd2be,
+        type: 2}
+      propertyPath: positionList.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114541526151627800, guid: 058c73ae0f9d195459a1cf69483cd2be,
+        type: 2}
+      propertyPath: positionList.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 058c73ae0f9d195459a1cf69483cd2be, type: 2}
   m_IsPrefabParent: 0
